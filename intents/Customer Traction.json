@@ -1,0 +1,63 @@
+{
+  "id": "789892f5-938e-4974-a89f-d74ea866e1c3",
+  "name": "Customer Traction",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "CustomerTraction-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Hey there, in this section, we will show you some Dos and Don\u0027ts kind of questions when it comes to understanding the customer traction/customer attraction strategy of your founders. \nThe Don\u0027t questions are generally intimidating for female founders and the Do questions are just the right way to rephrase the Don\u0027t questions! \nYou also have the option to type your questions and our bot will perform sentiment analysis on your phrases to give you an overall idea about the nature of your question.",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Here are some Dos(can ask) and Donts(intimidating) questions in the area of Customer Traction",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Dos Customer Traction"
+            },
+            {
+              "title": "Donts Customer Traction"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hey there, in this section, we will show you some Dos and Don\u0027ts kind of questions when it comes to understanding the customer traction/customer attraction strategy of your founders. The Don\u0027t questions are generally intimidating for female founders and the Do questions are just the right way to rephrase the Don\u0027t questions! \nYou also have the option to type your questions and our bot will perform sentiment analysis on your phrases to give you an overall idea about the nature of your question."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
