@@ -1,0 +1,63 @@
+{
+  "id": "f11608ac-5292-4ba8-a282-bb93c3fe939c",
+  "parentId": "789892f5-938e-4974-a89f-d74ea866e1c3",
+  "rootParentId": "789892f5-938e-4974-a89f-d74ea866e1c3",
+  "name": "Dos Customer Traction",
+  "auto": true,
+  "contexts": [
+    "CustomerTraction-followup",
+    "QACusomerSuccess"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CustomerTraction.CustomerTraction-custom",
+      "affectedContexts": [
+        {
+          "name": "QACusomerSuccess",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some positive and informative questions to founders on their customer traction:\n1. How do you want to acquire customers?\n2. How long do users stay on average?\n3. How much feedback have you received so far?\n4. What is the estimated total rate of growth?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Donts Customer Traction"
+            },
+            {
+              "title": "Sales Process"
+            },
+            {
+              "title": "Market Related"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

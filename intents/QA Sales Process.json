@@ -1,0 +1,58 @@
+{
+  "id": "7a9fd201-1b2f-423b-8fb0-c6b5ae3db0c4",
+  "name": "QA Sales Process",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SalesProcess.SalesProcess-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here is a sample Questions and Answer that could help explain your sales strategy:\nQ: Are there any thoughts on scaling your sales process?\nA: We\u0027re actually managing the business for aggressive top-line growth, with a good deal of sales momentum so far. Here\u0027s what our sales forecast looks like. Our goal is to expand our margins as we grow our top line throughout this forecast period ...",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "QA Customer Succes"
+            },
+            {
+              "title": "QA Market Related"
+            },
+            {
+              "title": "Sales Process"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

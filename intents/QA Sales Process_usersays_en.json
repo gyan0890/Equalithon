@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ed17e2d4-7222-479a-b446-723f660de495",
+    "data": [
+      {
+        "text": "Inisghts on Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c84fd5d6-1b78-4a2c-baa2-96792ab17aa0",
+    "data": [
+      {
+        "text": "Questions and Answers on Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02519d4f-edbb-4cfb-bf95-f2acd61c8cbd",
+    "data": [
+      {
+        "text": "QA Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd08c033-f333-4a2b-9579-bd092c0d1082",
+    "data": [
+      {
+        "text": "Tips on QA Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

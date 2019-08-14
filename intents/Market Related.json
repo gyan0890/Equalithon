@@ -1,0 +1,63 @@
+{
+  "id": "c5098ee9-61b9-4cb4-86e4-edc140d4325f",
+  "name": "Market Related",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "MarketRelated-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Hey there, in this section, we will show you some Dos and Don\u0027ts kind of questions when it comes to understanding the market strategy/market knowledge of your founders. \nThe Don\u0027t questions are generally intimidating for female founders and the Do questions are just the right way to rephrase the Don\u0027t questions! \nYou also have the option to type your questions and our bot will perform sentiment analysis on your phrases to give you an overall idea about the nature of your question.",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Here are some Dos(can ask) and Donts(intimidating) questions in the area of Market Strategy.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Dos"
+            },
+            {
+              "title": "Don\u0027ts"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

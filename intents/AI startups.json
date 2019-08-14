@@ -1,0 +1,101 @@
+{
+  "id": "8dd61069-e9dc-4321-9ade-5dfd4c84447f",
+  "name": "AI startups",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b7310496-3341-46ab-a1c4-74d007efd937",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here is an overview of female founded startups in the AI domain",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "footer": "Activeness Score: 617",
+              "openUrlAction": {
+                "url": "https://www.daedalean.ai/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Daedalean AG",
+              "description": "Total Funding Amount: $11.9M"
+            },
+            {
+              "footer": "Activeness Score: 590",
+              "openUrlAction": {
+                "url": "https://www.recogni.com/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Recogni",
+              "description": "Total Funding Amount: $25M"
+            },
+            {
+              "footer": "Activeness Score: 12714",
+              "openUrlAction": {
+                "url": "https://convizit.com/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Convizit",
+              "description": "Total Funding Amount: $1M"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Pre-Seed Round AI"
+            },
+            {
+              "title": "Seed Round AI"
+            },
+            {
+              "title": "Series A AI"
+            },
+            {
+              "title": "Venture Round AI"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

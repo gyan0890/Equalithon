@@ -1,0 +1,50 @@
+[
+  {
+    "id": "42253127-d7b8-46d7-b1f0-55c4e6a1adac",
+    "data": [
+      {
+        "text": "Market Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b851941c-ce27-4346-9779-fae6057618e8",
+    "data": [
+      {
+        "text": "How well do the entrepreneurs understand their market",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa3fc89e-472f-4750-9c1b-c051bf04c81e",
+    "data": [
+      {
+        "text": "I want to ask Market Related questions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ca00cde-34c1-4338-a64f-af9b6d877bba",
+    "data": [
+      {
+        "text": "Market Related",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

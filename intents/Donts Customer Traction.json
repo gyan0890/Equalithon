@@ -1,0 +1,56 @@
+{
+  "id": "0615131b-5853-464e-8934-0fea31038a55",
+  "parentId": "789892f5-938e-4974-a89f-d74ea866e1c3",
+  "rootParentId": "789892f5-938e-4974-a89f-d74ea866e1c3",
+  "name": "Donts Customer Traction",
+  "auto": true,
+  "contexts": [
+    "CustomerTraction-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CustomerTraction.CustomerTraction-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "1. What is your customer-retention strategy?\n2. How many actual and paid users do you have?\n3. Have you received any feedback so far?\n4. Do you have any estimated total rate of growth?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Dos Customer Traction"
+            },
+            {
+              "title": "Market Strategy"
+            },
+            {
+              "title": "Sales process"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

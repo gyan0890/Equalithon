@@ -1,0 +1,61 @@
+{
+  "id": "0ae11e1c-ed82-49f1-b7ae-7c1051af9506",
+  "name": "QA Customer Traction",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CustomerTraction.CustomerTraction-custom",
+      "affectedContexts": [
+        {
+          "name": "QACusomerSuccess",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here is an example Question and Answer that can help guide your customer traction strategy:\nQ: How do you want to acquire customers?\nA: We\u0027re improving our daily and monthly active user numbers each period for a net customer growth rate of x percent. We plan to accelerate this rate by promoting the following customer growth strategy ...",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "QA Sales Process"
+            },
+            {
+              "title": "Market Related QA"
+            },
+            {
+              "title": "Customer Traction"
+            },
+            {
+              "title": "Home"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

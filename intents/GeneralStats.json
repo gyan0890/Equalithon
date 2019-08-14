@@ -1,0 +1,60 @@
+{
+  "id": "48765b26-9dcc-42e9-862b-ef8d4be43c2c",
+  "name": "GeneralStats",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "1. Private technology companies led by women are more capital-efficient, achieving 35% higher ROI, and, when venture-backed, 12% higher revenue than startups run by men, according to the Kauffman Foundation.\n2. Women founded companies in First Round Capital’s portfolio outperformed companies founded by men by 63%.\n3. Businesses founded by women deliver higher revenue—more than 2 times as much per dollar 4. invested—than those founded by men, making women-owned companies better investments for financial backers.\n4. Despite the severe funding gap, startups founded and cofounded by women actually performed better over time, generating 10% more in cumulative revenue over a five-year period\n5. Women-owned businesses are growing much faster than all businesses. From 2007 to 2018, women-owned businesses grew by 58% in terms of the number of firms and 46% in terms of revenue",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Blockchain startups info"
+            },
+            {
+              "title": "AI startups info"
+            },
+            {
+              "title": "IoT startups info"
+            },
+            {
+              "title": "HealthTech info"
+            },
+            {
+              "title": "Non-profit space info"
+            },
+            {
+              "title": "Other startups"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "1. Private technology companies led by women are more capital-efficient, achieving 35% higher ROI, and, when venture-backed, 12% higher revenue than startups run by men, according to the Kauffman Foundation.\n2. Women founded companies in First Round Capital’s portfolio outperformed companies founded by men by 63%.\n3. Businesses founded by women deliver higher revenue—more than 2 times as much per dollar 4. invested—than those founded by men, making women-owned companies better investments for financial backers.\n4. Despite the severe funding gap, startups founded and cofounded by women actually performed better over time, generating 10% more in cumulative revenue over a five-year period\n5. Women-owned businesses are growing much faster than all businesses. From 2007 to 2018, women-owned businesses grew by 58% in terms of the number of firms and 46% in terms of revenue"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

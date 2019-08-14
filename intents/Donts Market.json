@@ -1,0 +1,59 @@
+{
+  "id": "a7769614-07b0-4fa8-aaa9-e7dc0b0faee7",
+  "parentId": "c5098ee9-61b9-4cb4-86e4-edc140d4325f",
+  "rootParentId": "c5098ee9-61b9-4cb4-86e4-edc140d4325f",
+  "name": "Donts Market",
+  "auto": true,
+  "contexts": [
+    "MarketRelated-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MarketRelated.MarketRelated-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "1. How do you plan to defend your market share, given how competitive the landscape is?\n2. Why do you think there\u0027s opportunity for this market?\n3. Is this even the right time for this product or service?\n4. Do you have a marketing strategy for this?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Market Dos"
+            },
+            {
+              "title": "Customer Traction"
+            },
+            {
+              "title": "Success Mantra"
+            },
+            {
+              "title": "Sales process"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "7969a72c-5e69-4503-bf01-0efd9adf4958",
+    "data": [
+      {
+        "text": "Questions and Answers on Customer Traction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b18fcd1c-b5dc-4bd0-a160-3a9a9bfd7d84",
+    "data": [
+      {
+        "text": "Tips on Customer Traction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9f41a7ca-5fc3-4e07-a4a0-2a560d884d29",
+    "data": [
+      {
+        "text": "QA Customer Traction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

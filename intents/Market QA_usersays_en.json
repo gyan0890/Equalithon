@@ -1,0 +1,74 @@
+[
+  {
+    "id": "45f5d0f5-43c2-4bd4-9d99-b1ef976561e4",
+    "data": [
+      {
+        "text": "Market Related QA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "73592498-e42d-442b-8bbc-d23c8203e136",
+    "data": [
+      {
+        "text": "Market Strategy QA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8081daad-310f-4bd6-b927-e90ecd1b8818",
+    "data": [
+      {
+        "text": "QA on Market Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc41dc51-8cea-4c6e-89bc-487c484acdc5",
+    "data": [
+      {
+        "text": "Q\u0026A on Market Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7fa9fc0e-fc7f-4fe2-a9bc-ac533625ca7d",
+    "data": [
+      {
+        "text": "Example Questions  and Answers on Market Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66ff79f8-9e8d-4949-bf57-e75789466218",
+    "data": [
+      {
+        "text": "Questions  and Answers on Market Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "90624919-023b-453c-95c8-241ec8942955",
+  "name": "Entrepreneur",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Welcome to SheInvest. We wish you best of luck for your upcoming ventures. We have certain sample questions and Answers in different categories to help you.\nYou could also type in your own questions or answers to understand the sentiment behind the statements and get recommendations to improvise.\nPlease choose the category you would like to explore.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Market Related QA"
+            },
+            {
+              "title": "QA Customer Succes"
+            },
+            {
+              "title": "QA Sales Process"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

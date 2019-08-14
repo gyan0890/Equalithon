@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cfef1ab0-e7c2-496b-8da9-0029975061a9",
+    "data": [
+      {
+        "text": "I want to know about the Sales Strategy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68a44476-ccc1-4cfb-a006-6123883c91ee",
+    "data": [
+      {
+        "text": "Understanding Sales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e91ab66d-76f1-4e79-9836-d84c1d20d933",
+    "data": [
+      {
+        "text": "Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

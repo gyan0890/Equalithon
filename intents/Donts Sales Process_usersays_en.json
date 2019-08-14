@@ -1,0 +1,38 @@
+[
+  {
+    "id": "66484cbe-e70f-4ee8-af36-d70f80306bd0",
+    "data": [
+      {
+        "text": "Intimidating Sales Questions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d68ee755-9de2-4874-a662-d74769de07cc",
+    "data": [
+      {
+        "text": "What not to ask about Sales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d59a755c-2324-4eff-a0e9-315fa15cc59c",
+    "data": [
+      {
+        "text": "Donts Sales Process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "id": "b1d7a924-6515-4b10-b25c-d009274e0d51",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Hi! How are you doing? Are you an investor or an Entrepreneur?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Hello! How can I help you? Are you an investor or an Entrepreneur?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Good day! What can I do for you today? Are you an investor or an Entrepreneur?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Greetings! How can I assist? Are you an investor or an Entrepreneur?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Hi, welcome to SheInvest, are you an investor or an Entrepreneur?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Investor"
+            },
+            {
+              "title": "Entrepreneur"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?",
+            "Hi, welcome to SheInvest"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

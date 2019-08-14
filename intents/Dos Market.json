@@ -1,0 +1,59 @@
+{
+  "id": "c01e29c8-ec8e-4c99-aa27-baf32f61fcce",
+  "parentId": "c5098ee9-61b9-4cb4-86e4-edc140d4325f",
+  "rootParentId": "c5098ee9-61b9-4cb4-86e4-edc140d4325f",
+  "name": "Dos Market",
+  "auto": true,
+  "contexts": [
+    "MarketRelated-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MarketRelated.MarketRelated-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some positive and informative questions to founders on their go to market strategy:\n1. So, how do you think you\u0027re going to get at this market?\n2. How big is the market opportunity?\n3. Why is this the right time for this product or service?\n4. What is your marketing strategy?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Donts Market"
+            },
+            {
+              "title": "Customer Traction"
+            },
+            {
+              "title": "Sales Process"
+            },
+            {
+              "title": "Success Mantra"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

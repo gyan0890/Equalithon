@@ -1,0 +1,56 @@
+{
+  "id": "dda9b74a-1c3e-4bff-bdb8-cab6e30a3a31",
+  "parentId": "6be8969c-0a31-4ee6-80ac-f21db8ab7da4",
+  "rootParentId": "6be8969c-0a31-4ee6-80ac-f21db8ab7da4",
+  "name": "Donts Sales Process",
+  "auto": true,
+  "contexts": [
+    "SalesProcess-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SalesProcess.SalesProcess-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "1. How long will it take you to break even?\n2. How many actual sales have you made?\n3. What has held back your growth?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Customer Traction"
+            },
+            {
+              "title": "Dos Sales Process"
+            },
+            {
+              "title": "Market Strategy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

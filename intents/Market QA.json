@@ -1,0 +1,58 @@
+{
+  "id": "903de3e6-a32d-43a9-9fc1-6f8672b74fa6",
+  "name": "Market QA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MarketRelated.MarketRelated-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here is a simple example of how you can respond to a market strategy related question:\nQ: So, how do you think you\u0027re going to get at this market?\nA: We\u0027re playing in such a large and fast-growing market that it\u0027s bound to attract new entrants. We hope to gain increasing share in this attractive market by leveraging our startup\u0027s unique assets ...",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "QA Customer Traction"
+            },
+            {
+              "title": "QA Sales Process"
+            },
+            {
+              "title": "Market Related"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

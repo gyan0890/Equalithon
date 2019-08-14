@@ -1,0 +1,52 @@
+{
+  "id": "9a0ab41c-bbd9-4efb-94d0-388046f8d49f",
+  "name": "Investor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "investor",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Welcome to SheInvest. Our platform helps you understand how you can create a bias-free ecosystem for female founders. We have created a database of question patterns that will help you  get the best out of your entrepreneurs! You can choose different categories that you would like to explore.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Market Related"
+            },
+            {
+              "title": "Customer Traction"
+            },
+            {
+              "title": "Sales process"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

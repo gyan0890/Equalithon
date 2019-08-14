@@ -1,0 +1,56 @@
+{
+  "id": "111ebc2e-98ff-4724-bfe9-f6248dc76a11",
+  "parentId": "6be8969c-0a31-4ee6-80ac-f21db8ab7da4",
+  "rootParentId": "6be8969c-0a31-4ee6-80ac-f21db8ab7da4",
+  "name": "Dos Sales Process",
+  "auto": true,
+  "contexts": [
+    "SalesProcess-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SalesProcess.SalesProcess-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some positive and informative questions to founders on their sales strategy:\n1. Are there any thoughts on scaling your sales process?\n2. What is the predicted annual growth rate?\n3. Can you provide a demonstration of the product or prototype now?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Donts Sales Process"
+            },
+            {
+              "title": "Market Related"
+            },
+            {
+              "title": "Customer Traction"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

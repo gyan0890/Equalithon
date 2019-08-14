@@ -1,0 +1,73 @@
+{
+  "id": "d23d34e4-cb3d-4251-96cf-d6e3ea29ec94",
+  "name": "Seed Round AI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Women Led companies which went through Seed Round Funding",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "footer": "Investor URL",
+              "openUrlAction": {
+                "url": "http://www.nbif.ca/en",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "SomaDetect, CA$2.6M",
+              "description": "Funding on: Aug 12, 2019"
+            },
+            {
+              "footer": "Investor Details",
+              "openUrlAction": {
+                "url": "https://www.crunchbase.com/organization/new-york-ventures#section-overview",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Chefaa, $17M",
+              "description": "Founded on May 29, 2017"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Bye"
+            },
+            {
+              "title": "Thank you!"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
